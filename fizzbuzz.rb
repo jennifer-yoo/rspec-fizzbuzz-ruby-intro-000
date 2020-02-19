@@ -4,5 +4,5 @@ def fizzbuzz(value)
   if value % 3 == "Fizz"
   elsif value % 5 == "Buzz"
   elsif value % 15 == "FizzBuzz"
-  elsif value % 0 == nil
+  elsif value % 4 == nil
 end
